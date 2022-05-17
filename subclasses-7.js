@@ -22,4 +22,4 @@ class Magazine extends Book {
 // Instantiation Magazine
 const mag1 = new Magazine('Mag One'), 'John Doe', '2018', 'Jan');
 
-console.log(mag1);
+console.log(mag1.getSummary());
